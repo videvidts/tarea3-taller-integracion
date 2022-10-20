@@ -5,24 +5,25 @@ module.exports = (sequelize, Sequelize) => {
       primaryKey: true
     },
     tipo: {
-      type: Sequelize.STRING
+      type: Sequelize.TEXT
     },
     nombre: {
-      type: Sequelize.STRING
+      type: Sequelize.TEXT
     },
     descripcion: {
-      type: Sequelize.STRING
-    },duracion: {
-      type: Sequelize.STRING
+      type: Sequelize.TEXT
+    },
+    duracion: {
+      type: Sequelize.TEXT
     },
     generos: {
-      type: Sequelize.STRING
+      type: Sequelize.ARRAY
     },
     actores: {
-      type: Sequelize.STRING
+      type: Sequelize.ARRAY
     },
     directores: {
-      type: Sequelize.STRING
+      type: Sequelize.ARRAY
     },
     reprodSemanales: {
       type: Sequelize.INTEGER

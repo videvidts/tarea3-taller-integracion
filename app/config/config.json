@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "tarea3",
+    "password": "123",
+    "database": "tarea3db",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "tarea3",
+    "password": "123",
+    "database": "tarea3db",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "tarea3",
+    "password": "123",
+    "database": "tarea3db",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}
