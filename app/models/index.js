@@ -18,6 +18,7 @@ const db = {};
 db.Sequelize = Sequelize;
 db.sequelize = sequelize;
 
-db.tutorials = require("./tutorial.model.js")(sequelize, Sequelize);
+db.videos = require("./videos.js")(sequelize, Sequelize);
+db.colecciones = require("./colecciones.js")(sequelize, Sequelize);
 
 module.exports = db;

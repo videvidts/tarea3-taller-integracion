@@ -13,8 +13,8 @@ exports.create = (req, res) => {
   }
 
   // Create a Tutorial
-  const tutorial = {
-    title: req.body.title,
+  const video = {
+    id: req.body.id,
     description: req.body.description,
     published: req.body.published ? req.body.published : false
   };
